@@ -8,7 +8,6 @@
 | `docker login`                              | Login to docker hub                     |
 | `docker tag <image-name> username/repo:tag` | Tag <image>                             |
 | `docker push username/repo:tag`             | Docker push a tagged image to repo      |
-| `docker run username/repo:tag`              | Run image from a given tag              |
 | `docker rmi <image-name>`                   | Remove the specified image              |
 | `docker rmi $(docker images -q)`            | Remove all docker images                |
 | `docker image inspect <image-name>`         | Inspect the given image detail          |
@@ -17,6 +16,7 @@
 
 | Command                                     | Summary                                 |
 | :------------------------------------------ | --------------------------------------- |
+| `docker run username/repo:tag`              | Run image from a given tag              |
 | `docker run -p 8080:80 <image-name>`        | Start docker container                  |
 | `docker run -d -p 8080:80 <image-name>`     | Start docker container in detached mode |
 | `docker exec -it <container-name> bash`     | Enter a running container               |
