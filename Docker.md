@@ -1,7 +1,3 @@
->  <xxx> mantanotry
->  [xxx] optional
-
-
 # Image
 
 | Command                                     | Summary                                 |
